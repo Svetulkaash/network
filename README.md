@@ -35,25 +35,21 @@ sudo nmap -sS < ip-адрес >
 sudo nmap -sV < ip-адрес >
 
 По желанию можете поэкспериментировать с опциями: https://nmap.org/man/ru/man-briefoptions.html.
+
+Из логов видны попытки сканирования с 192.168.56.114 и блокировка по SSH.
 `
 
-!(sS)[https://github.com/Svetulkaash/network/blob/main/Suricata%20sT%20sV.png]
+![sS](https://github.com/Svetulkaash/network/blob/main/Suricata%20sT%20sV.png)
 
-!(sV)[https://github.com/Svetulkaash/network/blob/main/Suricata%20sS%20sA.png]
+![sV](https://github.com/Svetulkaash/network/blob/main/Suricata%20sS%20sA.png)
 
-!(sSf)[https://github.com/Svetulkaash/network/blob/main/Suricata%20sT%20sV%20fail2b.png]
+![sSf](https://github.com/Svetulkaash/network/blob/main/Suricata%20sT%20sV%20fail2b.png)
 
-!(sVf)[https://github.com/Svetulkaash/network/blob/main/Suricata%20sS%20sA%20fail2b.png]
+![sVf](https://github.com/Svetulkaash/network/blob/main/Suricata%20sS%20sA%20fail2b.png)
 
 
 
- `Из логов видны попытки сканирования с 192.168.56.114 и блокировка по SSH.`
 
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
 
 ```
 Поле для вставки кода...
@@ -92,7 +88,7 @@ hydra -L users.txt -P pass.txt < ip-адрес > ssh
 •	установить enabled в true.
 `
 
-!(hyd)[https://github.com/Svetulkaash/network/blob/main/hydra%20fail.png]
+![hyd](https://github.com/Svetulkaash/network/blob/main/hydra%20fail.png)
 
 
 1. `Заполните здесь этапы выполнения, если требуется ....`
