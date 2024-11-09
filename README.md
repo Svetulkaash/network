@@ -38,9 +38,13 @@ sudo nmap -sV < ip-адрес >
 `
 
 !(sS)[https://github.com/Svetulkaash/network/blob/main/Suricata%20sT%20sV.png]
+
 !(sV)[https://github.com/Svetulkaash/network/blob/main/Suricata%20sS%20sA.png]
+
 !(sSf)[https://github.com/Svetulkaash/network/blob/main/Suricata%20sT%20sV%20fail2b.png]
+
 !(sVf)[https://github.com/Svetulkaash/network/blob/main/Suricata%20sS%20sA%20fail2b.png]
+
 
 
  `Из логов видны попытки сканирования с 192.168.56.114 и блокировка по SSH.`
